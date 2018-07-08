@@ -1,1 +1,1 @@
-web: gunicorn maddymakesstuff.wsgi --log-file -
+web: gunicorn maddymakesstuff.wsgi
