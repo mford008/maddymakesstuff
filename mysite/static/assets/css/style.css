@@ -1,0 +1,136 @@
+body {
+  background-color: #3E4444;
+}
+.container {
+  width: 100%;
+  margin-bottom: 70px;
+}
+h1, h2, h3 {
+  font-family: 'Hind', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+h1 {
+  color: #F76F9A;
+  font-size: 80px;
+}
+h2 {
+  color: #F76F9A;
+  font-size: 20px;
+}
+h3 {
+  color: #FFDAD8;
+  font-size: 16px;
+}
+p {
+  font-family: 'Slabo 27px', serif;
+  color: #FFDAD8;
+  font-size: 16px;
+}
+/*Navbar*/
+nav {
+  color: #FFDAD8;
+  background-color: #3E4444;
+  font-family: 'Hind', sans-serif;
+}
+.navbar-brand {
+  color: #F76F9A;
+  font-family: 'Hind', sans-serif;
+}
+a {
+  color: #FFDAD8;
+}
+a:hover {
+  color: #F76F9A;
+}
+li.active > a {
+  color: #F76F9A;
+}
+/*About Section*/
+img.biopic {
+  max-height: 300px;
+}
+.biopic-container, .greeting, .bio-para-container {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.fa-bars {
+  color: #FFDAD8;
+}
+/*Portfolio*/
+.first-row {
+  padding: 5px;
+}
+.portfolio-description {
+  font-size: 14px;
+}
+.repo-list-container {
+  display: contents;
+  text-align: center;
+}
+/*Contact*/
+label {
+  color: #FFDAD8;
+  font-family: 'Hind', sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  /*font awesome icons - only on contact page*/
+.fab {
+  font-size: 3em;
+  color: #FFDAD8;
+  padding: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+/*Contact and Portfolio*/
+.btn {
+  color: #FFDAD8;
+  background-color: #3E4444;
+  border-color: #FFDAD8;
+  margin: 5px;
+}
+/*Contact*/
+.icon-section {
+  display: flex;
+  justify-content: space-around;
+}
+a.linkedin, a.twitter, a.github {
+  background-color: #f8f9fa;
+
+}
+.publications-section {
+  text-align: center;
+  margin-top: 20px;
+}
+/*Blog*/
+.blog-post-title {
+  text-align: left;
+}
+/*Footer*/
+.footer, .copyright {
+  font-size: 16px;
+  text-align: center;
+  background-color: #3E4444;
+  color: #FFDAD8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #3E4444;
+}
+.copyright-l1 {
+  color: #F76F9A;
+}
