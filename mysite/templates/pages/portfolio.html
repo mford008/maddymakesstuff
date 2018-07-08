@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="row first-row">
-    <div class="col-s-12 col-m-6 col-lg-6">
+    <div class="col-s-12 col-m-6 col-lg-6 project-tile">
       <div class="row">
         <div class="col">
           <img class="img-fluid img-portfolio" src="../static/assets/images/gottago.jpg" alt="Gotta Go Logo">
@@ -22,15 +22,15 @@
             It features MongoDB, a NodeJS server, and Bulma styling.
             Currently, the Gotta Go development team is fine-tuning user
             authentication, maps, and Redux.</p>
+            <div class="row buttons">
+              <a href="https://github.com/mford008/gotta-go-react" target="_blank" class="btn" role="button">Github Repo</a>
+              <a href="https://gotta-go.herokuapp.com/" target="_blank" class="btn" role="button">Live Site</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row buttons">
-        <a href="https://github.com/mford008/gotta-go-react" target="_blank" class="btn" role="button">View on Github</a>
-        <a href="https://gotta-go.herokuapp.com/" target="_blank" class="btn" role="button">Go to Site</a>
-      </div>
     </div>
-    <div class="col-s-12 col-m-6 col-lg-6">
+    <div class="col-s-12 col-m-6 col-lg-6 project-tile">
       <div class="row">
         <div class="col">
           <img class="img-fluid img-portfolio" src="../static/assets/images/friendfinder.jpg" alt="Friend Finder Logo">
@@ -45,14 +45,36 @@
               The application loops through
               each user's survey answers in comparison to profiles in order
               to find the friends with most similar answers.</p>
+              <div class="row buttons">
+                <a href="https://github.com/mford008/friend-finder" target="_blank" class="btn" role="button">Github Repo</a>
+                <a href="https://strangerthingsfriends.herokuapp.com/" target="_blank" class="btn" role="button">Live Site</a>
+              </div>
           </div>
         </div>
       </div>
-      <div class="row buttons">
-        <a href="https://github.com/mford008/friend-finder" target="_blank" class="btn" role="button">View on Github</a>
-        <a href="https://strangerthingsfriends.herokuapp.com/" target="_blank" class="btn" role="button">Go to Site</a>
-      </div>
     </div>
   </div> <!--row 1-->
+  <div class="second-row">
+    <div class="col-s-12 col-m-6 col-lg-6 project-tile">
+      <div class="row">
+        <div class="col">
+          <img class="img-fluid img-portfolio" src="../static/assets/images/divvy.png" alt="Gotta Go Logo">
+        </div>
+        <div class="col">
+          <div class="caption">
+            <h2>Divvy</h2>
+            <p class="portfolio-description">
+            Divvy is a Django application designed to faciliate community sharing
+            of household items. It utilizes cookiecutter, Bootstrap, and a sqlite
+            database.</p>
+            <div class="row buttons">
+              <a href="https://github.com/mford008/divvy" target="_blank" class="btn" role="button">Github Repo</a>
+              <a href="https://divvyshare.herokuapp.com/" target="_blank" class="btn" role="button">Live Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div> <!--container-->
 {% endblock %}

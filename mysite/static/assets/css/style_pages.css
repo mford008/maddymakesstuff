@@ -15,9 +15,13 @@ h1 {
   color: #F76F9A;
   font-size: 80px;
 }
+
 h2 {
   color: #F76F9A;
   font-size: 20px;
+}
+h2.subheading {
+  font-size: 30px;
 }
 h3 {
   color: #FFDAD8;
@@ -26,7 +30,7 @@ h3 {
 p {
   font-family: 'Slabo 27px', serif;
   color: #FFDAD8;
-  font-size: 16px;
+  font-size: 18px;
 }
 /*Navbar*/
 nav {
@@ -48,8 +52,9 @@ li.active > a {
   color: #F76F9A;
 }
 /*About Section*/
-img.biopic {
+img.biopic, img.img-portfolio {
   max-height: 300px;
+  border-radius: 15%;
 }
 .biopic-container, .greeting, .bio-para-container {
   text-align: center;
@@ -60,15 +65,14 @@ img.biopic {
   color: #FFDAD8;
 }
 /*Portfolio*/
-.first-row {
+.first-row, .second-row {
   padding: 5px;
 }
 .portfolio-description {
   font-size: 14px;
 }
-.repo-list-container {
-  display: contents;
-  text-align: center;
+.project-tile {
+  margin-top: 25px;
 }
 /*Contact*/
 label {
@@ -97,14 +101,25 @@ form {
   border-color: #FFDAD8;
   margin: 5px;
 }
+button.btn, a.btn {
+  color: #3E4444;
+  background-color: #FFDAD8;
+  border-color: #FFDAD8;
+  margin: 5px;
+}
+button.btn:active, button.btn:hover, a.btn:active, a.btn:hover {
+  color: #3E4444;
+  background-color: #F76F9A;
+  border-color: #3E4444;
+  margin: 5px;
+}
 /*Contact*/
 .icon-section {
   display: flex;
   justify-content: space-around;
 }
-a.linkedin, a.twitter, a.github {
-  background-color: #f8f9fa;
-
+a.btn-linkedin, a.btn-twitter, a.btn-github {
+  background-color:#3E4444;
 }
 .publications-section {
   text-align: center;
@@ -113,6 +128,9 @@ a.linkedin, a.twitter, a.github {
 /*Blog*/
 .blog-post-title {
   text-align: left;
+}
+.blog-description {
+  text-align: center;
 }
 /*Footer*/
 .footer, .copyright {
