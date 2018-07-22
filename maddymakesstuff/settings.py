@@ -25,7 +25,9 @@ SECRET_KEY = '_u#qt3e%#$mm(s!6mg=d#c9tru3=!!so$*=(if-aj-b9j^36$p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.maddymakesstuff.com',
+]
 
 
 # Application definition
