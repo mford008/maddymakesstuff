@@ -26,7 +26,8 @@ SECRET_KEY = '_u#qt3e%#$mm(s!6mg=d#c9tru3=!!so$*=(if-aj-b9j^36$p'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'www.maddymakesstuff.com',
+    'https://www.maddymakesstuff.com',
+    'https://maddymakesstuff2.herokuapp.com',
 ]
 
 
