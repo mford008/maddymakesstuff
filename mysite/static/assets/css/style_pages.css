@@ -87,7 +87,6 @@ img.biopic, img.img-portfolio {
   width: 50%;
 }
 .img-portfolio {
-  /*display: block;*/
   max-width: 100%;
   height: auto;
 }
@@ -114,7 +113,7 @@ img.biopic, img.img-portfolio {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-/*Contact*/
+
 label {
   color: #FFDAD8;
   font-family: 'Hind', sans-serif;
@@ -124,7 +123,7 @@ form {
   flex-direction: column;
   align-items: center;
 }
-  /*font awesome icons - only on contact page*/
+  /*font awesome icons - only on contact info*/
 .fab {
   font-size: 3em;
   color: #FFDAD8;
@@ -134,7 +133,7 @@ form {
   display: flex;
   justify-content: center;
 }
-/*Contact and Portfolio*/
+
 .btn {
   color: #FFDAD8;
   background-color: #3E4444;
@@ -153,7 +152,7 @@ button.btn:active, button.btn:hover, a.btn:active, a.btn:hover {
   border-color: #3E4444;
   margin: 5px;
 }
-/*Contact*/
+
 .icon-section {
   display: flex;
   justify-content: space-around;
