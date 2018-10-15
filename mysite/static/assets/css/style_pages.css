@@ -57,6 +57,9 @@ img.biopic, img.img-portfolio {
   max-height: 300px;
   border-radius: 15%;
 }
+.biopic {
+  text-align: center;
+}
 
 .greeting, {
   text-align: center;
