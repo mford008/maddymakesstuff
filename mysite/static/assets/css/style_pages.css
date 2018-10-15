@@ -24,18 +24,18 @@ h2.subheading {
   font-size: 30px;
 }
 h3 {
-  color: #FFDAD8;
+  color: #FFFFFF;
   font-size: 16px;
 }
 p {
   font-family: 'Slabo 27px', serif;
-  color: #FFDAD8;
+  color: #FFFFFF;
   font-size: 18px;
 }
 
 /*Navbar*/
 nav {
-  color: #FFDAD8;
+  color: #FFFFFF;
   background-color: #3E4444;
   font-family: 'Hind', sans-serif;
 }
@@ -64,7 +64,7 @@ img.biopic, img.img-portfolio {
   margin-bottom: 10px;
 }
 .fa-bars {
-  color: #FFDAD8;
+  color: #FFFFFF;
 }
 
 /*Portfolio*/
@@ -170,24 +170,4 @@ a.btn-linkedin, a.btn-twitter, a.btn-github {
 }
 .blog-description {
   text-align: center;
-}
-/*Footer*/
-.footer, .copyright {
-  font-size: 16px;
-  text-align: center;
-  background-color: #3E4444;
-  color: #FFDAD8;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-  line-height: 70px;
-  background-color: #3E4444;
-}
-.copyright-l1 {
-  color: #F76F9A;
 }
