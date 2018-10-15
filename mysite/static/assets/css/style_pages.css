@@ -58,7 +58,7 @@ img.biopic, img.img-portfolio {
   border-radius: 15%;
 }
 
-.biopic-container, .greeting, .contact-container {
+.greeting, {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
