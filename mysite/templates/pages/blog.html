@@ -11,7 +11,10 @@
   </div>
   <div class="row">
     <div class="col">
-      <h2>New posts coming soon!</h2>
+      <h2>New posts!</h2>
+      {% for blog_post in blog_pages %}
+        <h3><a href={{blog_post.filename}}>{{blog_post.title}}</a></h3>
+      {%  endfor %}
     </div>
   </div>
 </div>

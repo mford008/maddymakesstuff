@@ -12,7 +12,21 @@ def about(request):
 
 
 def blog(request):
-    return render(request, 'pages/blog.html')
+    blog_pages = [{
+        'filename': 'pages/blogpages/121318.html',
+        'title': 'Test',
+        'post_date': '12/13/18',
+        },
+        {
+        'filename': 'pages/blogpages/121418.html',
+        'title': 'Test2',
+        'post_date': '12/14/18',
+        },
+    ]
+    context = {
+        'blog_pages': blog_pages,
+    }
+    return render(request, 'pages/blog.html', context)
 
 
 def portfolio(request):
