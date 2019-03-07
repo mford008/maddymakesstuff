@@ -13,12 +13,12 @@ def about(request):
 
 def blog(request):
     blog_pages = [{
-        'filename': 'blog/blogpages/1.html',
+        'filename': 'pages/blogpages/1.html',
         'title': 'Test',
         'post_date': '12/13/18',
         },
         {
-        'filename': 'blog/2.html',
+        'filename': 'pages/blogpages/2.html',
         'title': 'Test2',
         'post_date': '12/14/18',
         },
@@ -26,7 +26,7 @@ def blog(request):
     context = {
         'blog_pages': blog_pages,
     }
-    return render(request, 'pages/blog.html')
+    return render(request, 'pages/blog.html', context)
 
 
 def portfolio(request):
