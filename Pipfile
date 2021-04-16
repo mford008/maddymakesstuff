@@ -5,10 +5,10 @@ name = "pypi"
 
 [packages]
 gunicorn = "*"
-django = ">=2.2.10"
+django = ">=3.0.14"
 django-heroku = "*"
 
 [dev-packages]
-
+django = ">=3.0.14"
 [requires]
 python_version = "3.6"
